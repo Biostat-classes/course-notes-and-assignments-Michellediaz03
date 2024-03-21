@@ -512,8 +512,7 @@ ggplot(sleep,aes(x=BrainWt,y = TotalSleep)) + geom_point(size = 4)
   #theme sets sizes, text, etc
 ```
 
-```{ggplot(sleep, aes(x=BrainWt, y=TotalSleep)+ geom_point}
-```
+`{ggplot(sleep, aes(x=BrainWt, y=TotalSleep)+ geom_point}`
 
 First plot how TotalSleep is explained by BrainWt (remember the issues
 with the data). Use ggplot2 to plot the relationship.
